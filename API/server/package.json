@@ -1,0 +1,24 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "^3.1.0",
+    "save": "^2.9.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^14.14.31",
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
