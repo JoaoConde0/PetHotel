@@ -18,7 +18,7 @@ class _TelaCadastroTutorState extends State<TelaCadastroTutor> {
   bool _isLoading = false;
 
   final List<String> _metodosPagamento = ['Dinheiro', 'Pix', 'Crédito', 'Débito'];
-  final String _baseUrl = 'http://150.164.247.209:3333';  //SEMPRE MUDAR
+  final String _baseUrl = 'http://000.000.000:3333';  //SEMPRE MUDAR
 
   Future<void> _salvarTutor() async {
     if (!_formKey.currentState!.validate()) {

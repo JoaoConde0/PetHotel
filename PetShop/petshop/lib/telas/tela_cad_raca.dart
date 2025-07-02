@@ -15,7 +15,7 @@ class _TelaCadastroRacaState extends State<TelaCadastroRaca> {
   String _especieSelecionada = 'Cachorro';
   bool _isLoading = false;
 
-  final String _baseUrl = 'http://150.164.247.209:3333';  //SEMPRE MUDAR
+  final String _baseUrl = 'http://000.000.000:3333';  //SEMPRE MUDAR
 
   Future<void> _salvarRaca() async {
     // Valida o formulário

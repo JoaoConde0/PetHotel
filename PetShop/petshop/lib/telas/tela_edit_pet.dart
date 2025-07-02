@@ -11,7 +11,7 @@ class TelaEditarPet extends StatefulWidget {
 }
 class _TelaEditarPetState extends State<TelaEditarPet> {
   final _formKey = GlobalKey<FormState>();
-  final String _baseUrl = 'http://150.164.247.209:3333';  //SEMPRE MUDAR
+  final String _baseUrl = 'http://000.000.000:3333';  //SEMPRE MUDAR
   bool _isLoading = true;
   int? _tutorSelecionadoId;
   int? _racaSelecionadaId;

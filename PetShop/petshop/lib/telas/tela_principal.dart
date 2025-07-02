@@ -22,7 +22,7 @@ class _TelaPrincipalState extends State<TelaPrincipal> with SingleTickerProvider
   // Variáveis de estado para a lista de pets
   List<dynamic> _pets = [];
   bool _isLoading = true;
-  final String _baseUrl = 'http://150.164.247.209:3333';  //SEMPRE MUDAR
+  final String _baseUrl = 'http://000.000.000:3333';  //SEMPRE MUDAR
 
   @override
   void initState() {

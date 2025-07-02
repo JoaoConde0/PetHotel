@@ -14,7 +14,7 @@ class _TelaEditarRacaState extends State<TelaEditarRaca> {
   late TextEditingController _nomeController;
   late String _especieSelecionada;
   bool _isLoading = false;
-  final String _baseUrl = 'http://150.164.247.209:3333';  //SEMPRE MUDAR
+  final String _baseUrl = 'http://000.000.000:3333';  //SEMPRE MUDAR
 
   @override
   void initState() {
